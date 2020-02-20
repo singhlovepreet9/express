@@ -1,2 +1,2 @@
-source /home/ubuntu
+cd /home/ubuntu
 npm install
