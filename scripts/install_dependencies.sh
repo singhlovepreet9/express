@@ -5,4 +5,4 @@ export NVM_DIR="$HOME/.nvm"
 cd /home/ubuntu/express
 rm -rf node_modules
 npm install
-npm i -g pm2
+
