@@ -1,2 +1,2 @@
 source /home/ubuntu
-npm install
+node index.js
