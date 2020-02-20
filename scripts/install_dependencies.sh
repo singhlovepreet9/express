@@ -3,4 +3,5 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 cd /home/ubuntu/express
+rm -rf node_modules
 npm install
