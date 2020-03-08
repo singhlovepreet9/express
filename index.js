@@ -1,11 +1,12 @@
 const express = require('express');
 const app = express();
+const ip = require("ip");
 app.set('view engine', 'pug');
 app.set('views', './views');
 
 app.get('/hello', (req, res) => {
-	console.log('dmfbhdbfj');
-	res.render('index', { title: 'new', message: 'hello worldv2' });
+	console.log('called');
+	res.render('index', { title: 'new', message: `hello world from ${ip.address()}` });
 });
 
 const port = process.env.PORT || 4000;
